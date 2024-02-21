@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+body {
+  /* border: 5px solid black; */
+  height: auto;
+  line-height: 1.4;
+}
+h1 {
+  background-color: lightgray;
+}
+a:link {
+  color: #000;
+}
+h1::before {
+  content: "SALE";
+  padding: 5px 10px;
+  color: white;
+  font-size: 17px;
+  font-family: "Arial";
+  font-weight: bold;
+  background-color: red;
+  position: absolute;
+  top: -20px;
+  left: -35px;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  border: 5px solid black;
+  position: relative;
+  margin-top: 70px;
+}
+.cart {
+  background-color: #000;
+  color: white;
+  /* font-weight: bold; */
+
+  height: 70px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  clear: left;
+}
+.add {
+  font-size: 30px;
+}
+.container h1 {
+  height: 70px;
+  padding-top: 15px;
+}
+.img {
+  float: left;
+  width: 25%;
+  width: 300px;
+}
+.product {
+  float: right;
+  width: 25%;
+  margin-top: 5px;
+  font-size: 20px;
+  width: 320px;
+  margin-right: 10px;
+  height: 280px;
+}
+.product h4 {
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+.main {
+  float: left;
+  width: 50%;
+  margin: 20px 10px;
+  font-size: 20px;
+  width: 320px;
+  height: auto;
+  text-align: left;
+  /* clear: both; */
+}
+.content {
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+/* .main p {
+  margin-bottom: 30px;
+} */
+/* .head {
+  float: left;
+} */
+li {
+  margin-bottom: 15px;
+  text-align: left;
+  font-weight: 500;
+  color: #000;
+}
+h3 {
+  display: inline;
+  text-align: left;
+  padding-left: 25px;
+  font-weight: 600;
+}
+.para {
+  display: inline;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 60px;
+}
+.info {
+  margin: 0;
+  text-align: left;
+  padding-left: 30px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.product-colors {
+  display: inline-block;
+}
+.box {
+  background-color: black;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-green {
+  background-color: green;
+}
+.color-brown {
+  background-color: brown;
+}
