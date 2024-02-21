@@ -20,7 +20,7 @@ h1::before {
   content: "SALE";
   padding: 5px 10px;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Arial";
   font-weight: bold;
   background-color: red;
